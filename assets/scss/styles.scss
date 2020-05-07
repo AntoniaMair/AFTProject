@@ -1,0 +1,128 @@
+$baseColor: white;
+
+#logopic{
+  width: 50px;
+  height: 50px;
+}
+
+.navbar{
+  color: $baseColor;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 156;
+}
+
+.btn{
+  color: $baseColor;
+}
+
+.page-footer{
+  color: $baseColor;
+}
+
+#logout{
+  position: absolute;
+  top: 14px;
+  right: 120px;
+  z-index: 160;
+}
+
+.form-control{
+  width: 300px;
+}
+
+#login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+#citiescontainer{
+  margin-bottom: 1em;
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-row-gap: 2em;
+  justify-items: center;
+}
+
+#cityhotels{
+  margin-bottom: 1em;
+  margin-top: 1em;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-row-gap: 2em;
+  justify-items: center;
+}
+
+.hotelbody{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 5em;
+}
+
+.amenities{
+  display: flex;
+}
+
+.amenities > div{
+  margin-right: 1em;
+}
+.hotelsinglediv{
+  margin-top: 1.5em;
+}
+
+.hotelsinglediv > h2{
+  margin-bottom: 0.5em;
+}
+
+.hotelsinglediv img{
+  height: 150px;
+  max-width: 100%;
+  margin-bottom: 1em;
+  margin-right: 1em;
+}
+
+.contact > p{
+  margin-bottom: 0.6em;
+}
+
+#hotelheading{
+  margin-top: 2em;
+  margin-bottom: 0.7em;
+}
+
+#cityheading{
+  margin-top: 1em;
+  margin-bottom: 0.7em;
+}
+
+#cityhotelsheading{
+  margin-top: 1em;
+}
+
+
+.citysinglediv img{
+  max-width: 100%;
+  text-align: center;
+}
+
+#names{
+  background-color: $baseColor;
+  position: relative;
+  top: -150px;
+  text-align: center;
+  padding-bottom: 0.2em;
+  padding-top: 0.1em;
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
